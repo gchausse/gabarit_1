@@ -27,7 +27,9 @@ aside {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #c3f0e5;
+    padding-bottom: 46px
+
 }
 main {
     width: 60%;
@@ -37,7 +39,31 @@ main {
 }
 #textmain {
 text-align: center;
-background-color: silver;
-border-radius: 2px;
+background-color: #c3f0e5;
+border-radius: 5px;
 padding: 1em;
+border: 1px solid #0fbdb1;
+}
+.three-column {
+  padding: 1em;
+  -moz-column-count: 3;
+  -moz-column-gap: 1em;
+  }
+p {
+    font-size: 10px;
+}
+#call {
+    background-color: #6667d7;
+    color: #fcf9f9;
+    border-radius: 6px;
+    padding: 0.65em;
+    font-size: 12px;
+}
+footer {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+button {
+    font-size: 10px;
 }
