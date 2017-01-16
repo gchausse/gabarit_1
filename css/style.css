@@ -5,18 +5,23 @@ body {
 
 header {
     background-color: #473e3e;
-    height: 70px;
-    padding: 2em;
 }
+ul {
+    margin-left: auto;
+    margin-right: auto;
+    width: 73%;
 
+}
 li {
     display: inline-block;
-    list-style: none;
+    color: #8d8a8a;
+    vertical-align: middle;
+    font-size: 10px;
 }
 img {
     display: inline-block;
     float: left;
-    margin: 2em;
+    margin-right: 2em;
 }
 
 #photo2 {
@@ -66,4 +71,7 @@ footer {
 }
 button {
     font-size: 10px;
+}
+h2 {
+    margin-top: auto;
 }
